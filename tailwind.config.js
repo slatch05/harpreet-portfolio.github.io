@@ -2,7 +2,11 @@
 export default {
   content: ['./index.html', './client/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montreal: ['"PP Neue Montreal"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
