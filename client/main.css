@@ -1,6 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* body {
-  font-family: 'PP Neue Montreal';
-} */
+
+@font-face {
+  font-family: 'MangoGrotesqueExtLt';
+  src: url('/fonts/Humane-ExtraLight.woff2') format('woff2'); /* Modern Browsers */
+
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'UniqueSemBd';
+  src: url('/fonts/Unique-SemiBold.woff2') format('woff2');
+
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Dirtyline';
+  src: url('/fonts/Dirtyline 36daysoftype 2022.woff2') format('woff2');
+
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
