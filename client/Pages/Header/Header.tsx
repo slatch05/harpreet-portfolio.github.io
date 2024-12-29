@@ -6,43 +6,71 @@ export function Header() {
     <div>
       <div className="font-montreal flex justify-between">
         <div className="max-w-60">
-          <span className="text-[0.800rem] font-light text-gray-600">
+          <span className="text-[0.800rem]  text-gray-600">
             Harpreet Singh Slatch
           </span>
 
           <p className="uppercase">Full stack developer </p>
         </div>
         <div className="max-w-60">
-          <span className="text-[0.800rem] font-light text-gray-600">
-            Loaction
-          </span>
+          <span className="text-[0.800rem]  text-gray-600">Location</span>
           <Time />
         </div>
         <div className="max-w-60">
-          <span className="text-[0.800rem] font-light text-gray-600">
-            Sitemap
-          </span>
+          <span className="text-[0.800rem]  text-gray-600">Sitemap</span>
           <div className="uppercase">
-            <Link to="/">Index,</Link> <Link to="about">About,</Link>{' '}
-            <Link to="projects">Projects,</Link>{' '}
-            <Link to="contact">Contact</Link>
+            <Link to="/" className="group relative mr-2">
+              Index,
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+            <Link to="about" className="group relative mr-2">
+              About,
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+            <Link to="projects" className="group relative mr-2">
+              Projects,
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+            <Link to="contact" className="group relative">
+              Contact
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
           </div>
         </div>
         <div className="max-w-60">
-          <span className="text-[0.800rem] font-light text-gray-600">
+          <span className="text-[0.800rem] text-gray-600">
             Let&apos;s connect
           </span>
           <div className="uppercase">
-            <a href="#">Resume,</a>{' '}
-            <a href="https://www.linkedin.com/in/harpreet-singh-slatch-894b94168/">
-              linkedin,
-            </a>{' '}
-            <a href="https://github.com/slatch05">Github,</a>{' '}
-            <a href="mailto:blue_slatch@icloud.com">Email</a>
+            <a
+              href="https://sg.docs.wps.com/l/cIOaDnq-fAualvrsG?utm_source=wps_office_mac&utm_medium=comp_border_bar&utm_content=link&v=v2"
+              className="group relative mr-2"
+            >
+              Resume,
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/harpreet-singh-slatch-894b94168/"
+              className="group relative mr-2"
+            >
+              LinkedIn,
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a
+              href="https://github.com/slatch05"
+              className="group relative mr-2"
+            >
+              GitHub,
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="mailto:blue_slatch@icloud.com" className="group relative">
+              Email
+              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
           </div>
         </div>
       </div>
-      <hr className="border-t-1 my-5 border-black"></hr>
+      {/* <hr className="border-t-1 my-5 border-black"></hr> */}
     </div>
   )
 }

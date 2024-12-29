@@ -1,12 +1,15 @@
 export function HomePage() {
   return (
-    <div className="mt-10 flex min-h-svh items-center justify-center">
+    <div
+      className="flex min-h-screen
+     items-center justify-center"
+    >
       <div className="text-center">
-        <div className="mx-auto mb-10 w-64 2xl:w-96">
+        <div className="mx-auto mb-12 h-auto w-64 2xl:w-96">
           <img src="public/image/singh.png" alt="my-pic" />
         </div>
         <div>
-          <h1 className="font-dirty text-[10.9375rem] 2xl:text-[20.25rem]">
+          <h1 className="font-dirty text-[10.9375rem] xl:text-[10.9375rem] 2xl:text-[20.25rem]">
             Harpreet Slatch
           </h1>
         </div>
