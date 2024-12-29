@@ -2,7 +2,7 @@ export function About() {
   return (
     <div className="mt-10 min-h-screen">
       <div>
-        <div className=" text-5xl 2xl:text-6xl">
+        <div className="text-5xl 2xl:text-6xl">
           I’m a full-stack web developer. I specialize in creating dynamic,{' '}
           <br />
           user-friendly web applications using tools
