@@ -8,6 +8,8 @@ export default {
         mango: ['MangoGrotesqueExtLt', 'sans-serif'],
         uniqe: ['UniqueSemBd', 'sans-serif'],
         dirty: ['Dirtyline', 'sans-serif'],
+        nohemi: ['Nohemi', 'sans-serif'],
+        nohemiLight: ['NohemiExtLt', 'sans-serif'],
       },
     },
   },

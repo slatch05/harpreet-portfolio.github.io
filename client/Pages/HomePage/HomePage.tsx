@@ -9,7 +9,7 @@ export function HomePage() {
           <img src="public/image/singh.png" alt="my-pic" />
         </div>
         <div>
-          <h1 className="font-dirty text-[10.9375rem] xl:text-[10.9375rem] 2xl:text-[20.25rem]">
+          <h1 className="font-nohemiLight  text-[10.9375rem] xl:text-[10.9375rem] 2xl:text-[20.25rem]">
             Harpreet Slatch
           </h1>
         </div>
@@ -20,14 +20,6 @@ export function HomePage() {
 
 {
   /* <div>
-        <h1 className="mt-10 max-w-3xl text-5xl">
-          My name is Harpreet Singh Slatch.{' '}
-          <p>
-            I&apos;m a{' '}
-            <span className="text-red-500">Full-Stack Software Developer</span>{' '}
-            based in Auckland (NZ).
-          </p>
-        </h1>
 
         <div className="mt-10 text-xl">
           <a
