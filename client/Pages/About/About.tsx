@@ -1,12 +1,12 @@
 export function About() {
   return (
-    <div className="mt-10 min-h-screen">
+    <div className="mt-20">
       <div>
         <div className="text-5xl 2xl:text-6xl">
           I’m a full-stack web developer. I specialize in creating dynamic,{' '}
           <br />
           user-friendly web applications using tools
-          <span className="mx-2 text-red-500">
+          <span className="mx-2 text-[rgb(255,47,1)] ">
             like React, TypeScript, Node.js, and REST APIs,
           </span>
           delivering efficient and visually engaging solutions.

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export function Projects() {
   return (
-    <div className="mt-10 min-h-screen">
+    <div className="mt-20">
       <h1 className="text-5xl">Selected projects (2024 - present)</h1>
       <div className="flex flex-row gap-10 font-light">
         <div className="mt-10 flex flex-col border border-black p-5">

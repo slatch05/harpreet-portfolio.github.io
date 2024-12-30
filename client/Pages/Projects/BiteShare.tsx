@@ -4,8 +4,8 @@ import { Footer } from '../Footer/Footer'
 export function BiteShare() {
   return (
     <div>
-      <div className="mt-10 flex min-h-screen justify-between">
-        <div className="w-[500px]">
+      <div className="mt-20 flex justify-between">
+        <div className="w-[28rem]">
           <Link
             to="/projects"
             className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
@@ -44,14 +44,14 @@ export function BiteShare() {
         </div>
         <div>
           <img
-            className="w-[900px] border border-black"
+            className="w-[60rem] border border-black"
             src="public/image/bite-share/biteShare1.png"
             alt="BiteShare-HomePage"
           />
         </div>
       </div>
       <div>
-        <div className=" text-5xl 2xl:text-6xl">
+        <div className="mt-32 text-5xl 2xl:text-6xl">
           Bite-Share is a web application designed to strengthen community
           connections by connecting individuals or organizations willing to
           donate food with those in need.
