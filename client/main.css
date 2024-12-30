@@ -49,3 +49,7 @@
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
+
+html {
+  scroll-behavior: smooth;
+}

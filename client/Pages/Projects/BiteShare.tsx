@@ -50,12 +50,12 @@ export function BiteShare() {
         </div>
       </div>
       <div>
-        <div className="w-3/4 text-5xl 2xl:text-6xl">
+        <div className=" text-5xl 2xl:text-6xl">
           Bite-Share is a web application designed to strengthen community
           connections by connecting individuals or organizations willing to
           donate food with those in need.
         </div>
-        <div className="ml-96 mt-20 w-7/12 text-left font-light">
+        <div className="ml-96 mt-20 w-7/12 text-justify font-light">
           This project was a collaborative effort by Henry, Gurwinder, and
           Harpreet, aimed at creating a minimalist and user-friendly website to
           facilitate food sharing within the community. It features a simple
@@ -67,6 +67,62 @@ export function BiteShare() {
           providing a means to help those in need, this project underscores the
           team’s commitment to functionality, simplicity, and social impact.
         </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <div className="mb-10 flex w-1/3 flex-row items-center justify-center p-5">
+          <img
+            className="mr-4 border-2 border-black bg-black"
+            src="public/image/bite-share/give1.png"
+            alt="give-page "
+          />
+          <img
+            className="mr-4 border-2 border-black bg-black"
+            src="public/image/bite-share/give2.png"
+            alt="give-page "
+          />
+          <img
+            className="mr-4 border-2 border-black bg-black"
+            src="public/image/bite-share/give3.png"
+            alt="give-page "
+          />
+        </div>
+      </div>
+      <div className="mt-5 flex items-center justify-center">
+        <img
+          className="w-3/4 border-2 border-black "
+          src="public/image/bite-share/biteShare3.png"
+          alt="request-page"
+        />
+      </div>
+      <div className="mt-20 flex items-center justify-center">
+        <img
+          className="w-3/4 border-2 border-black "
+          src="public/image/bite-share/biteShare4.png"
+          alt="text-page"
+        />
+      </div>
+      <div className="mb-10 mt-20 flex items-center justify-center">
+        <div className="flex w-2/4 flex-row items-center justify-center p-5">
+          <img
+            className="mr-3 border-2 border-black"
+            src="public/image/bite-share/biteShare5.png"
+            alt="text-page"
+          />
+
+          <img
+            className="mr-3 border-2 border-black"
+            src="public/image/bite-share/biteShare6.png"
+            alt="text-page"
+          />
+        </div>
+      </div>
+      <div className="mb-40">
+        <a
+          href="#top"
+          className="mt-7 flex w-fit justify-end rounded-full border border-solid border-black px-2 py-1 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+        >
+          back to top
+        </a>
       </div>
     </div>
   )
