@@ -63,7 +63,7 @@ export function GameHub() {
           mini-games designed for simple, engaging, and entertaining
           experiences. It’s your go-to platform for fun and relaxation!
         </div>
-        <div className="mb-48 ml-96 w-[40rem] uppercase">
+        <div className="mb-48 ml-96 w-[40rem] font-light uppercase">
           I’m passionate about game development, and this personal project
           reflects that enthusiasm. The goal was to create a minimalist,
           user-friendly website to host a variety of engaging mini-games while

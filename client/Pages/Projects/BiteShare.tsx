@@ -56,7 +56,7 @@ export function BiteShare() {
           connections by connecting individuals or organizations willing to
           donate food with those in need.
         </div>
-        <div className="mb-48 ml-96 w-[40rem] uppercase">
+        <div className="mb-48 ml-96 w-[40rem] font-light uppercase">
           {' '}
           This project was a collaborative effort by Henry, Gurwinder, and
           Harpreet, aimed at creating a minimalist and user-friendly website to

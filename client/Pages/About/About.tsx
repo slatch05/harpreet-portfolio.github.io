@@ -10,13 +10,13 @@ export function About() {
           </span>
           delivering efficient and visually engaging solutions.
         </div>
-        <div className="mt-20 flex justify-between ">
+        <div className="mt-32 flex justify-between">
           <div className="grid size-2/12 grid-cols-2 gap-4">
             <img src="public/image/preet-2.png" alt="preet" />{' '}
             <img src="public/image/preet-3.png" alt="preet" />{' '}
             <img src="public/image/preet-4.png" alt="preet" />
           </div>
-          <div className="mr-20 w-[50rem] uppercase">
+          <div className="mr-52 w-[50rem] font-light uppercase">
             My journey into development started with years of leadership
             experience, where I managed teams, optimized processes, and solved
             challenges creatively. This background has shaped my approach to web

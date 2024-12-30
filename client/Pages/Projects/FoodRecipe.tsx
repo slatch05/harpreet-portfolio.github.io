@@ -51,7 +51,7 @@ export function FoodRecipe() {
           from a wide variety of cuisines. The platform makes it simple and
           enjoyable to find and try the dishes you love.
         </div>
-        <div className="mb-48 ml-96 w-[40rem] uppercase">
+        <div className="mb-48 ml-96 w-[40rem] font-light uppercase">
           This project, completed as a Friday group collaboration by Harpreet,
           Nikki, and Gurwinder in just half a day, aimed to create a simple and
           user-friendly platform. Built using TypeScript, React, Node.js, and
