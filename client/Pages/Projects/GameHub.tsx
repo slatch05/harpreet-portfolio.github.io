@@ -57,26 +57,26 @@ export function GameHub() {
           />
         </div>
       </div>
-      <div className="grid h-screen place-items-center">
+      <div className="grid h-screen place-items-center font-light">
         <div className="mt-52 text-6xl 2xl:text-6xl">
           Game Hub is a web application offering a collection of amazing
           mini-games designed for simple, engaging, and entertaining
           experiences. It’s your go-to platform for fun and relaxation!
         </div>
-        <div className="mb-48 ml-96 w-[40rem] font-light uppercase">
+        <div className="mb-48 ml-96 w-[46rem] uppercase">
           I’m passionate about game development, and this personal project
           reflects that enthusiasm. The goal was to create a minimalist,
           user-friendly website to host a variety of engaging mini-games while
           also providing a platform for gaming enthusiasts to purchase
-          high-quality gaming mice and keyboards. Built using TypeScript, React,
-          Node.js, Express, and SQLite3, this web app seamlessly integrates a
-          responsive frontend, robust backend logic, and efficient data
-          management. Designed to provide a smooth and immersive user
-          experience, it showcases my skills in combining modern web
-          technologies with a focus on simplicity and functionality. This
-          project is not just about games—it’s about crafting a platform that
-          brings joy, connection, and the tools gamers need for an enhanced
-          gaming experience.
+          high-quality gaming mice and keyboards. <br /> <br />
+          Built using TypeScript, React, Node.js, Express, and SQLite3, this web
+          app seamlessly integrates a responsive frontend, robust backend logic,
+          and efficient data management. Designed to provide a smooth and
+          immersive user experience, it showcases my skills in combining modern
+          web technologies with a focus on simplicity and functionality. <br />{' '}
+          <br /> This project is not just about games—it’s about crafting a
+          platform that brings joy, connection, and the tools gamers need for an
+          enhanced gaming experience.
         </div>
       </div>
       <div className="m-[4rem] bg-violet-50">

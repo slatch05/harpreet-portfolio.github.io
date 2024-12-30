@@ -50,24 +50,25 @@ export function BiteShare() {
           />
         </div>
       </div>
-      <div className="grid h-screen place-items-center">
+      <div className="grid h-screen place-items-center font-light">
         <div className="mt-52 text-6xl 2xl:text-6xl">
           Bite-Share is a web application designed to strengthen community
           connections by connecting individuals or organizations willing to
           donate food with those in need.
         </div>
-        <div className="mb-48 ml-96 w-[40rem] font-light uppercase">
+        <div className="mb-48 ml-96 w-[46rem] font-light uppercase">
           {' '}
           This project was a collaborative effort by Henry, Gurwinder, and
           Harpreet, aimed at creating a minimalist and user-friendly website to
           facilitate food sharing within the community. It features a simple
           interface for sharing meals, a static messaging system for user
           communication, and essential CRUD operations to ensure seamless
-          interactions. Built using TypeScript, React, Node.js, Express, and
-          SQLite3, the web app combines a responsive frontend, efficient backend
-          logic, and lightweight data management. By reducing food waste and
-          providing a means to help those in need, this project underscores the
-          team’s commitment to functionality, simplicity, and social impact.
+          interactions. <br /> <br /> Built using TypeScript, React, Node.js,
+          Express, and SQLite3, the web app combines a responsive frontend,
+          efficient backend logic, and lightweight data management. By reducing
+          food waste and providing a means to help those in need, this project
+          underscores the team’s commitment to functionality, simplicity, and
+          social impact.
         </div>
       </div>
       <div className="flex items-center justify-center">

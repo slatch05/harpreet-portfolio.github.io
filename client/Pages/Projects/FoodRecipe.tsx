@@ -45,13 +45,13 @@ export function FoodRecipe() {
           />
         </div>
       </div>
-      <div className="grid h-screen place-items-center">
+      <div className="grid h-screen place-items-center font-light">
         <div className="mt-52 text-6xl 2xl:text-6xl">
           A food recipe website that helps users discover their favorite recipes
           from a wide variety of cuisines. The platform makes it simple and
           enjoyable to find and try the dishes you love.
         </div>
-        <div className="mb-48 ml-96 w-[40rem] font-light uppercase">
+        <div className="mb-48 ml-96 w-[46rem] uppercase">
           This project, completed as a Friday group collaboration by Harpreet,
           Nikki, and Gurwinder in just half a day, aimed to create a simple and
           user-friendly platform. Built using TypeScript, React, Node.js, and
