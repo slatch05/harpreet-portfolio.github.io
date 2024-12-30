@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Footer } from '../Footer/Footer'
 
 export function BiteShare() {
   return (
@@ -7,7 +8,7 @@ export function BiteShare() {
         <div className="w-[500px]">
           <Link
             to="/projects"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-0.5 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
           >
             back to projects
           </Link>
@@ -27,13 +28,13 @@ export function BiteShare() {
 
           <a
             href="https://bite-share-pohutukawa24.devacademy.nz"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-0.5 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
           >
             Live website
           </a>
           <a
             href="https://github.com/slatch05/bite-share"
-            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-0.5 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
           >
             View code
           </a>
@@ -116,14 +117,15 @@ export function BiteShare() {
           />
         </div>
       </div>
-      <div className="mb-40">
+      <div className="text-right">
         <a
           href="#top"
-          className="mt-7 flex w-fit justify-end rounded-full border border-solid border-black px-2 py-1 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
         >
           back to top
         </a>
       </div>
+      <Footer />
     </div>
   )
 }
