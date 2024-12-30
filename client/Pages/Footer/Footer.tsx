@@ -17,7 +17,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-row gap-20">
-          <div className="max-w-60">
+          <div className="">
             <span className="text-[0.800rem]  text-gray-600">Sitemap</span>
             <div className="uppercase">
               <Link to="/" className="group relative mr-1">
@@ -38,7 +38,7 @@ export function Footer() {
               </Link>
             </div>
             <hr className="border-t-1 my-5 border-black"></hr>
-            <div className="max-w-60">
+            <div className="">
               <span className="text-[0.800rem]  text-gray-600">
                 Harpreet Singh Slatch
               </span>
@@ -46,7 +46,7 @@ export function Footer() {
               <p className="uppercase">Full stack developer </p>
             </div>
           </div>
-          <div className="max-w-60 ">
+          <div className=" ">
             <span className="text-[0.800rem] text-gray-600">
               Let&apos;s connect
             </span>

@@ -2,7 +2,7 @@ export function About() {
   return (
     <div className="mt-20">
       <div>
-        <div className="text-6xl font-light 2xl:text-6xl">
+        <div className="text-6xl font-light 2xl:text-[5rem]">
           I’m a full-stack web developer. I specialize in creating dynamic,{' '}
           user-friendly web applications using
           <span className="mx-2 text-[rgb(255,47,1)] ">
@@ -11,12 +11,24 @@ export function About() {
           delivering efficient and visually engaging solutions.
         </div>
         <div className="mt-32 flex justify-between">
-          <div className="grid size-2/12 grid-cols-2 gap-4">
-            <img src="public/image/preet-2.png" alt="preet" />{' '}
-            <img src="public/image/preet-3.png" alt="preet" />{' '}
-            <img src="public/image/preet-4.png" alt="preet" />
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              className="h-auto w-28"
+              src="public/image/preet-2.png"
+              alt="preet"
+            />{' '}
+            <img
+              className="h-auto w-28"
+              src="public/image/preet-3.png"
+              alt="preet"
+            />{' '}
+            <img
+              className="h-auto w-28"
+              src="public/image/preet-4.png"
+              alt="preet"
+            />
           </div>
-          <div className="mr-52 w-[50rem] font-light uppercase">
+          <div className="mr-52 w-[50rem] font-light uppercase 2xl:mr-[70rem]">
             My journey into development started with years of leadership
             experience, where I managed teams, optimized processes, and solved
             challenges creatively. This background has shaped my approach to web

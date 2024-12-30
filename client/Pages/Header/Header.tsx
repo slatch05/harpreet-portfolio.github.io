@@ -5,18 +5,18 @@ export function Header() {
   return (
     <div>
       <div className="flex justify-between font-montreal">
-        <div className="max-w-60">
+        <div className="">
           <span className="text-[0.800rem]  text-gray-600">
             Harpreet Singh Slatch
           </span>
 
           <p className="uppercase">Full stack developer </p>
         </div>
-        <div className="max-w-60">
+        <div className="">
           <span className="text-[0.800rem]  text-gray-600">Location</span>
           <Time />
         </div>
-        <div className="max-w-60">
+        <div className="">
           <span className="text-[0.800rem]  text-gray-600">Sitemap</span>
           <div className="uppercase">
             <Link to="/" className="group relative mr-1">
@@ -37,7 +37,7 @@ export function Header() {
             </Link>
           </div>
         </div>
-        <div className="max-w-60">
+        <div className="">
           <span className="text-[0.800rem] text-gray-600">
             Let&apos;s connect
           </span>
@@ -71,7 +71,6 @@ export function Header() {
           </div>
         </div>
       </div>
-      {/* <hr className="border-t-1 my-5 border-black"></hr> */}
     </div>
   )
 }
