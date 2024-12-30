@@ -18,7 +18,7 @@ export function FoodRecipe() {
           <p className="font-light uppercase">Group project, 2024</p>
           <hr className="border-t-1 my-5 border-black"></hr>
           <span className="text-xs font-light text-zinc-500">
-            FrontEnd, BackEnd, UI/UX, 2024
+            BackEnd, UI/UX, 2024
           </span>
           <p className="font-light uppercase">Harpreet Singh Slatch</p>
           <hr className="border-t-1 my-5 border-black"></hr>
@@ -46,59 +46,48 @@ export function FoodRecipe() {
         </div>
       </div>
       <div className="grid h-screen place-items-center">
-        <div className="mt-60 text-5xl 2xl:text-6xl">
-          Game Hub is a web application offering a collection of amazing
-          mini-games designed for simple, engaging, and entertaining
-          experiences. It’s your go-to platform for fun and relaxation!
+        <div className="mt-52 text-6xl 2xl:text-6xl">
+          A food recipe website that helps users discover their favorite recipes
+          from a wide variety of cuisines. The platform makes it simple and
+          enjoyable to find and try the dishes you love.
         </div>
-        <div className="mb-48 ml-96 w-7/12 text-justify font-light">
-          I’m passionate about game development, and this personal project
-          reflects that enthusiasm. The goal was to create a minimalist,
-          user-friendly website to host a variety of engaging mini-games while
-          also providing a platform for gaming enthusiasts to purchase
-          high-quality gaming mice and keyboards. Built using TypeScript, React,
-          Node.js, Express, and SQLite3, this web app seamlessly integrates a
-          responsive frontend, robust backend logic, and efficient data
-          management. Designed to provide a smooth and immersive user
-          experience, it showcases my skills in combining modern web
-          technologies with a focus on simplicity and functionality. This
-          project is not just about games—it’s about crafting a platform that
-          brings joy, connection, and the tools gamers need for an enhanced
-          gaming experience.
+        <div className="mb-48 ml-96 w-[40rem] uppercase">
+          This project, completed as a Friday group collaboration by Harpreet,
+          Nikki, and Gurwinder in just half a day, aimed to create a simple and
+          user-friendly platform. Built using TypeScript, React, Node.js, and
+          SQLite3, the web app combines a responsive frontend, efficient
+          backend, and lightweight database management. The primary goal was to
+          design a website where users can effortlessly search for and discover
+          their favorite dishes from various cuisines. Despite the short
+          timeframe, the team focused on creating an intuitive and engaging
+          interface, showcasing their ability to deliver a functional and
+          polished product in a limited timeframe.
         </div>
       </div>
       <div className="m-[4rem] bg-violet-50">
         <div className="mt-10 flex h-screen flex-col items-center justify-center">
           <img
-            className="w-[67rem] rounded-xl"
-            src="public/image/game-hub/gameHub3.png"
-            alt="request-page"
+            className="w-[67rem]"
+            src="public/image/food/food2.png"
+            alt="japFood-page"
+          />
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <img
+            className="w-[67rem]"
+            src="public/image/food/food3.png"
+            alt="japFood-page"
           />
         </div>
         <div className="flex h-screen flex-col items-center justify-center">
           <img
-            className="w-[67rem] rounded-xl"
-            src="public/image/game-hub/gameHub4.png"
-            alt="request-page"
+            className="w-[67rem]"
+            src="public/image/food/food4.png"
+            alt="japFood-page"
           />
         </div>
       </div>
-      <div className="m-[4rem] bg-sky-50">
-        <div className="mt-10 flex h-screen flex-col items-center justify-center">
-          <img
-            className="w-[67rem] rounded-xl "
-            src="public/image/game-hub/gameHub2.png"
-            alt="request-page"
-          />
-        </div>
-        <div className="flex h-screen flex-col items-center justify-center">
-          <img
-            className="w-[67rem] rounded-xl "
-            src="public/image/game-hub/gameHub5.png"
-            alt="request-page"
-          />
-        </div>
-      </div>
+
       <div className="text-right">
         <a
           href="#top"

@@ -2,12 +2,11 @@ export function About() {
   return (
     <div className="mt-20">
       <div>
-        <div className="text-5xl 2xl:text-6xl">
+        <div className="text-6xl 2xl:text-6xl">
           I’m a full-stack web developer. I specialize in creating dynamic,{' '}
-          <br />
-          user-friendly web applications using tools
+          user-friendly web applications using
           <span className="mx-2 text-[rgb(255,47,1)] ">
-            like React, TypeScript, Node.js, and REST APIs,
+            tools like React, TypeScript, JS, Node.js, and REST APIs,
           </span>
           delivering efficient and visually engaging solutions.
         </div>
@@ -17,7 +16,7 @@ export function About() {
             <img src="public/image/preet-3.png" alt="preet" />{' '}
             <img src="public/image/preet-4.png" alt="preet" />
           </div>
-          <div className="mr-20 w-7/12 text-justify font-light">
+          <div className="mr-20 w-[50rem] uppercase">
             My journey into development started with years of leadership
             experience, where I managed teams, optimized processes, and solved
             challenges creatively. This background has shaped my approach to web

@@ -50,13 +50,14 @@ export function BiteShare() {
           />
         </div>
       </div>
-      <div>
-        <div className="mt-32 text-5xl 2xl:text-6xl">
+      <div className="grid h-screen place-items-center">
+        <div className="mt-52 text-6xl 2xl:text-6xl">
           Bite-Share is a web application designed to strengthen community
           connections by connecting individuals or organizations willing to
           donate food with those in need.
         </div>
-        <div className="ml-96 mt-20 w-7/12 text-justify font-light">
+        <div className="mb-48 ml-96 w-[40rem] uppercase">
+          {' '}
           This project was a collaborative effort by Henry, Gurwinder, and
           Harpreet, aimed at creating a minimalist and user-friendly website to
           facilitate food sharing within the community. It features a simple

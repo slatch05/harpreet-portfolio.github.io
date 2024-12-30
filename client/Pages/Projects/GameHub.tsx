@@ -58,12 +58,12 @@ export function GameHub() {
         </div>
       </div>
       <div className="grid h-screen place-items-center">
-        <div className="mt-60 text-5xl 2xl:text-6xl">
+        <div className="mt-52 text-6xl 2xl:text-6xl">
           Game Hub is a web application offering a collection of amazing
           mini-games designed for simple, engaging, and entertaining
           experiences. It’s your go-to platform for fun and relaxation!
         </div>
-        <div className="mb-48 ml-96 w-7/12 text-justify font-light">
+        <div className="mb-48 ml-96 w-[40rem] uppercase">
           I’m passionate about game development, and this personal project
           reflects that enthusiasm. The goal was to create a minimalist,
           user-friendly website to host a variety of engaging mini-games while

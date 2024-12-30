@@ -53,3 +53,9 @@
 html {
   scroll-behavior: smooth;
 }
+@layer utilities {
+  ::selection {
+    background-color: rgb(255, 47, 1);
+    color: white;
+  }
+}
