@@ -32,7 +32,7 @@ export function Contact() {
   return (
     <div className="mt-20">
       <form ref={formRef} onSubmit={handleSubmit}>
-        <div>
+        <div className="flex">
           <label htmlFor="name" className="text-5xl font-light 2xl:text-[5rem]">
             Hey Harpreet, my name is
           </label>
@@ -42,7 +42,7 @@ export function Contact() {
             name="name"
             placeholder="[your name]"
             required
-            className="pl-1 text-5xl font-light text-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
           />
         </div>
         <div>
@@ -59,24 +59,25 @@ export function Contact() {
             name="email"
             placeholder="[your email]"
             required
-            className="pl-1 text-5xl font-light text-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
           />
         </div>
         <div>
           <label
             htmlFor="message"
             className="text-5xl font-light 2xl:text-[5rem]"
-          >
-            Message
-          </label>
+          ></label>
           <input
             id="message"
             name="message"
-            className="pl-1 text-5xl font-light 2xl:text-[5rem]"
-            placeholder="[any message]"
+            className="w-[20rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
+            placeholder="[any note]"
           ></input>
         </div>
-        <button type="submit" className="rounded-xl border border-black p-1">
+        <button
+          type="submit"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+        >
           Send message
         </button>
       </form>
