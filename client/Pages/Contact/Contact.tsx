@@ -42,7 +42,7 @@ export function Contact() {
             name="name"
             placeholder="[your name]"
             required
-            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="w-[16rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
           />
         </div>
         <div>
@@ -61,16 +61,17 @@ export function Contact() {
             required
             className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
           />
-        </div>
-        <div>
+
           <label
             htmlFor="message"
             className="text-5xl font-light 2xl:text-[5rem]"
-          ></label>
+          >
+            . Message
+          </label>
           <input
             id="message"
             name="message"
-            className="w-[20rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="w-[32rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
             placeholder="[any note]"
           ></input>
         </div>

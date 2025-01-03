@@ -13,18 +13,18 @@ export function About() {
         <div className="mt-32 flex justify-between">
           <div className="grid grid-cols-2 gap-4">
             <img
-              className="h-auto w-28"
-              src="public/image/preet-2.png"
+              className="h-auto w-24"
+              src="public/image/Preet/preet-3.png"
               alt="preet"
             />{' '}
             <img
-              className="h-auto w-28"
-              src="public/image/preet-3.png"
+              className="h-auto w-24"
+              src="public/image/Preet/preet-2.png"
               alt="preet"
             />{' '}
             <img
-              className="h-auto w-28"
-              src="public/image/preet-4.png"
+              className="h-auto w-24"
+              src="public/image/Preet/preet-1.png"
               alt="preet"
             />
           </div>
