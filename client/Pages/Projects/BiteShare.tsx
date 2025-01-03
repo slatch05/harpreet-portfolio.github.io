@@ -5,10 +5,10 @@ export function BiteShare() {
   return (
     <div>
       <div className="mt-20 flex justify-between">
-        <div className="w-[28rem]">
+        <div className="w-[28rem] text-lg 2xl:w-[60rem] 2xl:text-2xl">
           <Link
             to="/projects"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
           >
             back to projects
           </Link>
@@ -28,13 +28,13 @@ export function BiteShare() {
 
           <a
             href="https://bite-share-pohutukawa24.devacademy.nz"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
           >
             Live website
           </a>
           <a
             href="https://github.com/slatch05/bite-share"
-            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
           >
             View code
           </a>
@@ -44,7 +44,7 @@ export function BiteShare() {
         </div>
         <div>
           <img
-            className="w-[60rem] border border-black"
+            className="w-[60rem] border border-black 2xl:w-[120rem]"
             src="public/image/bite-share/biteShare1.png"
             alt="BiteShare-HomePage"
           />
@@ -56,7 +56,7 @@ export function BiteShare() {
           connections by connecting individuals or organizations willing to
           donate food with those in need.
         </div>
-        <div className="mb-48 ml-96 w-[46rem] font-light uppercase">
+        <div className="mb-48 ml-96 w-[46rem] font-light uppercase 2xl:text-lg">
           {' '}
           This project was a collaborative effort by Henry, Gurwinder, and
           Harpreet, aimed at creating a minimalist and user-friendly website to
@@ -122,7 +122,7 @@ export function BiteShare() {
       <div className="text-right">
         <a
           href="#top"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
         >
           back to top
         </a>

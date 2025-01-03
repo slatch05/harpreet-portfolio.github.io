@@ -11,7 +11,7 @@ export function About() {
           delivering efficient and visually engaging solutions.
         </div>
         <div className="mt-32 flex justify-between">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-2">
             <img
               className="h-auto w-24"
               src="public/image/Preet/preet-3.png"
@@ -28,24 +28,27 @@ export function About() {
               alt="preet"
             />
           </div>
-          <div className="mr-52 w-[50rem] font-light uppercase 2xl:mr-[70rem]">
-            My journey into development started with years of leadership
-            experience, where I managed teams, optimized processes, and solved
-            challenges creatively. This background has shaped my approach to web
-            development, where I focus on creating efficient, user-centered
-            solutions.I specialize in technologies like React, Node.js, JS,
-            Tailwind, TypeScript, SQLite3 and REST APIs, which I use to build
-            applications that are not only functional but also visually
-            appealing and intuitive. <br />
-            <br />
-            My training includes over 800 hours of immersive coding boot camp
-            experience, where I worked collaboratively in team settings, solving
-            complex challenges using Agile methodologies. I thrive on continuous
-            learning and problem-solving, and I aim to deliver impactful digital
-            experiences that align with both user needs and business goals.
-            <br />
-            <br />
-            Let’s connect and create something incredible together!
+          <div>
+            <div className="mr-52 w-[50rem] font-light uppercase 2xl:mr-[70rem] 2xl:text-lg">
+              My journey into development started with years of leadership
+              experience, where I managed teams, optimized processes, and solved
+              challenges creatively. This background has shaped my approach to
+              web development, where I focus on creating efficient,
+              user-centered solutions.I specialize in technologies like React,
+              Node.js, JS, Tailwind, TypeScript, SQLite3 and REST APIs, which I
+              use to build applications that are not only functional but also
+              visually appealing and intuitive. <br />
+              <br />
+              My training includes over 800 hours of immersive coding boot camp
+              experience, where I worked collaboratively in team settings,
+              solving complex challenges using Agile methodologies. I thrive on
+              continuous learning and problem-solving, and I aim to deliver
+              impactful digital experiences that align with both user needs and
+              business goals.
+              <br />
+              <br />
+              Let’s connect and create something incredible together!
+            </div>
           </div>
         </div>
       </div>

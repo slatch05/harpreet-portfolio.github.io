@@ -5,10 +5,10 @@ export function GameHub() {
   return (
     <div>
       <div className="mt-20 flex justify-between">
-        <div className="w-[28rem]">
+        <div className="w-[28rem] text-lg 2xl:w-[60rem] 2xl:text-2xl">
           <Link
             to="/projects"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
           >
             back to projects
           </Link>
@@ -39,10 +39,12 @@ export function GameHub() {
             View code
           </a> */}
           <div className="flex items-center gap-2">
-            <p className=" w-fit rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white">
+            <p className=" w-fit rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white 2xl:text-2xl">
               Under construction
             </p>
-            <p className="text-xl">Exciting things are on the way!</p>
+            <p className="text-xl 2xl:text-2xl">
+              Exciting things are on the way!
+            </p>
           </div>
 
           <p className="mt-44 text-xs font-light text-zinc-500">
@@ -51,7 +53,7 @@ export function GameHub() {
         </div>
         <div>
           <img
-            className="w-[60rem]"
+            className="w-[60rem] 2xl:w-[120rem]"
             src="public/image/game-hub/gameHub.png"
             alt="BiteShare-HomePage"
           />
@@ -63,7 +65,7 @@ export function GameHub() {
           mini-games designed for simple, engaging, and entertaining
           experiences. It’s your go-to platform for fun and relaxation!
         </div>
-        <div className="mb-48 ml-96 w-[46rem] uppercase">
+        <div className="mb-48 ml-96 w-[46rem] uppercase 2xl:text-lg">
           I’m passionate about game development, and this personal project
           reflects that enthusiasm. The goal was to create a minimalist,
           user-friendly website to host a variety of engaging mini-games while
@@ -82,14 +84,14 @@ export function GameHub() {
       <div className="m-[4rem] bg-violet-50">
         <div className="mt-10 flex h-screen flex-col items-center justify-center">
           <img
-            className="w-[67rem] rounded-xl"
+            className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="public/image/game-hub/gameHub3.png"
             alt="request-page"
           />
         </div>
         <div className="flex h-screen flex-col items-center justify-center">
           <img
-            className="w-[67rem] rounded-xl"
+            className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="public/image/game-hub/gameHub4.png"
             alt="request-page"
           />
@@ -98,14 +100,14 @@ export function GameHub() {
       <div className="m-[4rem] bg-sky-50">
         <div className="mt-10 flex h-screen flex-col items-center justify-center">
           <img
-            className="w-[67rem] rounded-xl "
+            className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="public/image/game-hub/gameHub2.png"
             alt="request-page"
           />
         </div>
         <div className="flex h-screen flex-col items-center justify-center">
           <img
-            className="w-[67rem] rounded-xl "
+            className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="public/image/game-hub/gameHub5.png"
             alt="request-page"
           />
@@ -114,7 +116,7 @@ export function GameHub() {
       <div className="text-right">
         <a
           href="#top"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
         >
           back to top
         </a>
