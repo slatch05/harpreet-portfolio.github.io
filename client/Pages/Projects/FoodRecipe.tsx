@@ -46,7 +46,7 @@ export function FoodRecipe() {
         </div>
       </div>
       <div className="grid h-screen place-items-center font-light">
-        <div className="mt-52 text-6xl 2xl:text-6xl">
+        <div className="mt-52 text-5xl 2xl:text-6xl">
           A food recipe website that helps users discover their favorite recipes
           from a wide variety of cuisines. The platform makes it simple and
           enjoyable to find and try the dishes you love.

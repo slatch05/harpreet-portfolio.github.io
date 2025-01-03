@@ -51,7 +51,7 @@ export function BiteShare() {
         </div>
       </div>
       <div className="grid h-screen place-items-center font-light">
-        <div className="mt-52 text-6xl 2xl:text-6xl">
+        <div className="mt-52 text-5xl 2xl:text-6xl">
           Bite-Share is a web application designed to strengthen community
           connections by connecting individuals or organizations willing to
           donate food with those in need.

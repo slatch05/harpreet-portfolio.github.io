@@ -2,7 +2,7 @@ export function About() {
   return (
     <div className="mt-20">
       <div>
-        <div className="text-6xl font-light 2xl:text-[5rem]">
+        <div className="text-5xl font-light 2xl:text-[5rem]">
           I’m a full-stack web developer. I specialize in creating dynamic,{' '}
           user-friendly web applications using
           <span className="mx-2 text-[rgb(255,47,1)] ">
