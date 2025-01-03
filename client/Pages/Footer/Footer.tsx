@@ -4,11 +4,11 @@ export function Footer() {
   return (
     <div>
       <div className="mt-20 flex h-[200px] justify-between">
-        <div className="w-[24rem] text-pretty text-xl">
+        <div className="w-[24rem] text-pretty text-xl 2xl:text-3xl">
           I’m always ready for new projects and collaborations!
           <div className="mt-14">
             <a
-              className="w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+              className="w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-2xl"
               href="mailto: blue_slatch@icloud.com"
             >
               BLUE_SLATCH@ICLOUD.COM
@@ -16,9 +16,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-row gap-20">
+        <div className="flex flex-row gap-20 text-sm 2xl:text-xl">
           <div className="">
-            <span className="text-[0.800rem]  text-gray-600">Sitemap</span>
+            <span className="text-sm text-gray-600  2xl:text-base">
+              Sitemap
+            </span>
             <div className="uppercase">
               <Link to="/" className="group relative mr-1">
                 Index,
@@ -39,7 +41,7 @@ export function Footer() {
             </div>
             <hr className="border-t-1 my-5 border-black"></hr>
             <div className="">
-              <span className="text-[0.800rem]  text-gray-600">
+              <span className="text-sm text-gray-600  2xl:text-base">
                 Harpreet Singh Slatch
               </span>
 
@@ -47,7 +49,7 @@ export function Footer() {
             </div>
           </div>
           <div className=" ">
-            <span className="text-[0.800rem] text-gray-600">
+            <span className="text-sm text-gray-600  2xl:text-base">
               Let&apos;s connect
             </span>
             <div className="uppercase">
@@ -83,7 +85,9 @@ export function Footer() {
             </div>
             <hr className="border-t-1 my-5 border-black"></hr>
             <div>
-              <span className="text-[0.800rem] text-gray-600">Copyright</span>
+              <span className="text-sm text-gray-600  2xl:text-base">
+                Copyright
+              </span>
               <p className="uppercase">© All Rights Reserved</p>
             </div>
           </div>

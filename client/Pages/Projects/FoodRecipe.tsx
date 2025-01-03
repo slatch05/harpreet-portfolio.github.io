@@ -3,12 +3,12 @@ import { Footer } from '../Footer/Footer'
 
 export function FoodRecipe() {
   return (
-    <div>
+    <div className="">
       <div className="mt-20 flex justify-between">
-        <div className="w-[28rem]">
+        <div className="w-[28rem] text-lg 2xl:w-[60rem] 2xl:text-2xl">
           <Link
             to="/projects"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase  transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-2xl"
           >
             back to projects
           </Link>
@@ -28,7 +28,7 @@ export function FoodRecipe() {
 
           <a
             href="https://github.com/slatch05/food-Recipes"
-            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-2xl"
           >
             View code
           </a>
@@ -39,7 +39,7 @@ export function FoodRecipe() {
         </div>
         <div>
           <img
-            className="w-[60rem] border-4 border-teal-100"
+            className="w-[60rem] border-4 border-teal-100 2xl:w-[120rem]"
             src="public/image/food/food1.png"
             alt="BiteShare-HomePage"
           />
@@ -51,7 +51,7 @@ export function FoodRecipe() {
           from a wide variety of cuisines. The platform makes it simple and
           enjoyable to find and try the dishes you love.
         </div>
-        <div className="mb-48 ml-96 w-[46rem] uppercase">
+        <div className="mb-48 ml-96 w-[46rem] text-base uppercase 2xl:text-lg">
           This project, completed as a Friday group collaboration by Harpreet,
           Nikki, and Gurwinder in just half a day, aimed to create a simple and
           user-friendly platform. Built using TypeScript, React, Node.js, and
@@ -65,23 +65,23 @@ export function FoodRecipe() {
         </div>
       </div>
       <div className="m-[4rem] bg-violet-50">
-        <div className="mt-10 flex h-screen flex-col items-center justify-center">
+        <div className="mt-10 flex h-screen flex-col items-center justify-center ">
           <img
-            className="w-[67rem]"
+            className="w-[67rem] 2xl:w-[120rem] "
             src="public/image/food/food2.png"
             alt="japFood-page"
           />
         </div>
         <div className="flex flex-col items-center justify-center">
           <img
-            className="w-[67rem]"
+            className="w-[67rem] 2xl:w-[120rem]"
             src="public/image/food/food3.png"
             alt="japFood-page"
           />
         </div>
         <div className="flex h-screen flex-col items-center justify-center">
           <img
-            className="w-[67rem]"
+            className="w-[67rem] 2xl:w-[120rem]"
             src="public/image/food/food4.png"
             alt="japFood-page"
           />

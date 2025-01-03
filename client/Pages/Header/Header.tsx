@@ -4,20 +4,20 @@ import { Time } from '../../ui/time'
 export function Header() {
   return (
     <div>
-      <div className="flex justify-between font-montreal">
-        <div className="">
-          <span className="text-[0.800rem]  text-gray-600">
+      <div className="flex justify-between font-montreal text-sm 2xl:text-xl">
+        <div>
+          <span className="text-sm text-gray-600 2xl:text-base">
             Harpreet Singh Slatch
           </span>
 
           <p className="uppercase">Full stack developer </p>
         </div>
         <div className="">
-          <span className="text-[0.800rem]  text-gray-600">Location</span>
+          <span className="text-sm text-gray-600  2xl:text-base">Location</span>
           <Time />
         </div>
         <div className="">
-          <span className="text-[0.800rem]  text-gray-600">Sitemap</span>
+          <span className="text-sm text-gray-600  2xl:text-base">Sitemap</span>
           <div className="uppercase">
             <Link to="/" className="group relative mr-1">
               Index,
@@ -38,7 +38,7 @@ export function Header() {
           </div>
         </div>
         <div className="">
-          <span className="text-[0.800rem] text-gray-600">
+          <span className="text-sm text-gray-600  2xl:text-base">
             Let&apos;s connect
           </span>
           <div className="uppercase">

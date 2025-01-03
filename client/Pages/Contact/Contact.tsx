@@ -42,7 +42,7 @@ export function Contact() {
             name="name"
             placeholder="[your name]"
             required
-            className="w-[16rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:w-[25rem] 2xl:text-[5rem] "
           />
         </div>
         <div>
@@ -59,7 +59,7 @@ export function Contact() {
             name="email"
             placeholder="[your email]"
             required
-            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:w-[25rem] 2xl:text-[5rem]"
           />
 
           <label
@@ -71,13 +71,13 @@ export function Contact() {
           <input
             id="message"
             name="message"
-            className="w-[32rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
             placeholder="[any note]"
           ></input>
         </div>
         <button
           type="submit"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-2xl"
         >
           Send message
         </button>
