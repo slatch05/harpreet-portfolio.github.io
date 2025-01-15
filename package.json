@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.2.0",
   "description": "React with react-query!",
+  "homepage": "https://slatch.github.io/boilerplate-phase1-tw",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-phase1.git",
   "main": "server/index.js",
   "scripts": {
@@ -10,7 +11,9 @@
     "build": "vite build",
     "test": "vitest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "@devacademy/eslint-config/react",
@@ -48,6 +51,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "gh-pages": "^6.3.0",
     "jsdom": "^22.1.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.35",
