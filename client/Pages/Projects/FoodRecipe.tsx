@@ -40,7 +40,7 @@ export function FoodRecipe() {
         <div>
           <img
             className="w-[60rem] border-4 border-teal-100 2xl:w-[120rem]"
-            src="public/image/food/food1.png"
+            src="/image/food/food1.png"
             alt="BiteShare-HomePage"
           />
         </div>
@@ -68,21 +68,21 @@ export function FoodRecipe() {
         <div className="mt-10 flex h-screen flex-col items-center justify-center ">
           <img
             className="w-[67rem] 2xl:w-[120rem] "
-            src="public/image/food/food2.png"
+            src="/image/food/food2.png"
             alt="japFood-page"
           />
         </div>
         <div className="flex flex-col items-center justify-center">
           <img
             className="w-[67rem] 2xl:w-[120rem]"
-            src="public/image/food/food3.png"
+            src="/image/food/food3.png"
             alt="japFood-page"
           />
         </div>
         <div className="flex h-screen flex-col items-center justify-center">
           <img
             className="w-[67rem] 2xl:w-[120rem]"
-            src="public/image/food/food4.png"
+            src="/image/food/food4.png"
             alt="japFood-page"
           />
         </div>

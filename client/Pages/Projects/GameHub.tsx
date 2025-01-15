@@ -54,7 +54,7 @@ export function GameHub() {
         <div>
           <img
             className="w-[60rem] 2xl:w-[120rem]"
-            src="public/image/game-hub/gameHub.png"
+            src="/image/game-hub/gameHub.png"
             alt="BiteShare-HomePage"
           />
         </div>
@@ -85,14 +85,14 @@ export function GameHub() {
         <div className="mt-10 flex h-screen flex-col items-center justify-center">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
-            src="public/image/game-hub/gameHub3.png"
+            src="/image/game-hub/gameHub3.png"
             alt="request-page"
           />
         </div>
         <div className="flex h-screen flex-col items-center justify-center">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
-            src="public/image/game-hub/gameHub4.png"
+            src="/image/game-hub/gameHub4.png"
             alt="request-page"
           />
         </div>
@@ -101,14 +101,14 @@ export function GameHub() {
         <div className="mt-10 flex h-screen flex-col items-center justify-center">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
-            src="public/image/game-hub/gameHub2.png"
+            src="/image/game-hub/gameHub2.png"
             alt="request-page"
           />
         </div>
         <div className="flex h-screen flex-col items-center justify-center">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
-            src="public/image/game-hub/gameHub5.png"
+            src="/image/game-hub/gameHub5.png"
             alt="request-page"
           />
         </div>

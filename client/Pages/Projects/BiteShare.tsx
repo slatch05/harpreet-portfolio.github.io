@@ -45,7 +45,7 @@ export function BiteShare() {
         <div>
           <img
             className="w-[60rem] border border-black 2xl:w-[120rem]"
-            src="public/image/bite-share/biteShare1.png"
+            src="/image/bite-share/biteShare1.png"
             alt="BiteShare-HomePage"
           />
         </div>
@@ -75,17 +75,17 @@ export function BiteShare() {
         <div className="mb-10 flex w-1/3 flex-row items-center justify-center p-5">
           <img
             className="mr-4 border-2 border-black bg-black"
-            src="public/image/bite-share/give1.png"
+            src="/image/bite-share/give1.png"
             alt="give-page "
           />
           <img
             className="mr-4 border-2 border-black bg-black"
-            src="public/image/bite-share/give2.png"
+            src="/image/bite-share/give2.png"
             alt="give-page "
           />
           <img
             className="mr-4 border-2 border-black bg-black"
-            src="public/image/bite-share/give3.png"
+            src="/image/bite-share/give3.png"
             alt="give-page "
           />
         </div>
@@ -93,14 +93,14 @@ export function BiteShare() {
       <div className="mt-5 flex items-center justify-center">
         <img
           className="w-3/4 border-2 border-black "
-          src="public/image/bite-share/biteShare3.png"
+          src="/image/bite-share/biteShare3.png"
           alt="request-page"
         />
       </div>
       <div className="mt-20 flex items-center justify-center">
         <img
           className="w-3/4 border-2 border-black "
-          src="public/image/bite-share/biteShare4.png"
+          src="/image/bite-share/biteShare4.png"
           alt="text-page"
         />
       </div>
@@ -108,13 +108,13 @@ export function BiteShare() {
         <div className="flex w-2/4 flex-row items-center justify-center p-5">
           <img
             className="mr-3 border-2 border-black"
-            src="public/image/bite-share/biteShare5.png"
+            src="/image/bite-share/biteShare5.png"
             alt="text-page"
           />
 
           <img
             className="mr-3 border-2 border-black"
-            src="public/image/bite-share/biteShare6.png"
+            src="/image/bite-share/biteShare6.png"
             alt="text-page"
           />
         </div>

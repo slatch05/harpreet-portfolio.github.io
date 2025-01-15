@@ -11,7 +11,7 @@ export function Projects() {
           <div className="mt-10 flex flex-col border border-black p-5">
             <img
               className="h-52 w-72 shadow-sm 2xl:h-[20rem] 2xl:w-[30rem]"
-              src="public/image/game-hub/gameHub.png"
+              src="/image/game-hub/gameHub.png"
               alt="gamehub-homepage"
             />
             <span className="mt-2 text-sm font-extralight 2xl:text-base">
@@ -28,7 +28,7 @@ export function Projects() {
           <div className="mt-10 flex flex-col border border-black p-5">
             <img
               className="h-52 w-72 shadow-sm 2xl:h-[20rem] 2xl:w-[30rem]"
-              src="public/image/bite-share/biteShare1.png"
+              src="/image/bite-share/biteShare1.png"
               alt="biteshare-homepage"
             />
             <span className="mt-2 text-sm font-extralight 2xl:text-base">
@@ -45,7 +45,7 @@ export function Projects() {
           <div className="mt-10 flex flex-col border border-black p-5">
             <img
               className="h-52 w-72 shadow-sm 2xl:h-[20rem] 2xl:w-[30rem]"
-              src="public/image/food/food1.png"
+              src="/image/food/food1.png"
               alt="gamehub-homepage"
             />
             <span className="mt-2 text-sm font-extralight">
