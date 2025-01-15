@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.2.0",
   "description": "React with react-query!",
-  "homepage": "https://slatch.github.io/boilerplate-phase1-tw",
+  "homepage": "https://slatch05.github.io/boilerplate-phase1-tw",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-phase1.git",
   "main": "server/index.js",
   "scripts": {
