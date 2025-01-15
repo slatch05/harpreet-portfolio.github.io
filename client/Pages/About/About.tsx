@@ -14,17 +14,17 @@ export function About() {
           <div className="grid grid-cols-1 gap-2">
             <img
               className="h-auto w-24"
-              src="public/image/Preet/preet-3.png"
+              src="/image/Preet/preet-3.png"
               alt="preet"
             />{' '}
             <img
               className="h-auto w-24"
-              src="public/image/Preet/preet-2.png"
+              src="/image/Preet/preet-2.png"
               alt="preet"
             />{' '}
             <img
               className="h-auto w-24"
-              src="public/image/Preet/preet-1.png"
+              src="/image/Preet/preet-1.png"
               alt="preet"
             />
           </div>
